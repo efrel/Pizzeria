@@ -30,8 +30,7 @@ Sistema de gestión para pizzería que incluye manejo de productos, órdenes y a
 
 ### Backend (Clean Architecture)
 
-```
-plaintext
+```plaintext
 *Capas de una Soluci�n
 |------>Capa de InfraEstructura
 |	|---->Data
@@ -75,6 +74,7 @@ plaintext
 |	|---->Aplication.Test (Recibe este nombre porque probar� cada m�todo de las clases implementadas en Aplicaci�n.Main)
 |		|------------>Dependencias: Microsoft.Extension.Configuration.Abstractions, Microsoft.Estensions.DependencyInjection.Abstractions
 ```
+````
 
 ### Frontend (Angular)
 
@@ -311,4 +311,3 @@ Este README proporciona:
 9. Guía de contribución
 
 ```
-````
